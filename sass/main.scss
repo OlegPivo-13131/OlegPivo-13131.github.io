@@ -87,6 +87,7 @@ header {
 				border: none;
 				outline:none;
 				padding-left: 10px;
+				width: 118px;
 			}
 			span {
 				display: inline-block;
@@ -283,9 +284,6 @@ main.main {
 @media (max-width: 991px) {
 	.contant_wrapper.container {
     	width: 736px;
-	}
-	.header_row__info .calendar .calendar__item input, .header_row__info .calendar .calendar__item input:focus {
-		width: 130px;
 	}
 	.event_row .event_row__col .event_row__item {
 		width: 230px;

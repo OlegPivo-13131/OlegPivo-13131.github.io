@@ -70,7 +70,8 @@ header {
     .header_row__info .calendar .calendar__item input:focus {
       border: none;
       outline: none;
-      padding-left: 10px; }
+      padding-left: 10px;
+      width: 118px; }
     .header_row__info .calendar .calendar__item span {
       display: inline-block;
       width: 32px;
