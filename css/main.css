@@ -270,6 +270,26 @@ main.main {
     justify-content: center;
     padding-bottom: 0; } }
 @media (max-width: 480px) {
+  .header_row__info .title,
+  .header_row__info .statistics {
+    margin-bottom: 30px; }
+
+  .header_row__info .title h1 {
+    display: block; }
+
+  .header_row__info .calendar {
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    -o-flex-direction: column;
+    flex-direction: column; }
+
+  .header_row__info .calendar > span {
+    margin-bottom: 5px; }
+
+  .header_row__info .calendar .calendar__item {
+    margin-bottom: 30px; }
+
   .event_row .event_row__col .event_row__item {
     width: 290px; } }
 
