@@ -2,6 +2,9 @@
 body {
 	background: #fafafa;
 }
+#wraper {
+	overflow: hidden;
+}
 a:hover,
 a:focus {
 	text-decoration: none;
@@ -298,6 +301,9 @@ main.main {
 @media (max-width: 767px) {
 	.header_row__info {
 		text-align: center;
+	}
+	.contant_wrapper.container {
+    	width: 100%;
 	}
 	.header_row__info .calendar {
 		-webkit-justify-content: center;

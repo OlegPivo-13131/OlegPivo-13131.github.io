@@ -1,6 +1,9 @@
 body {
   background: #fafafa; }
 
+#wraper {
+  overflow: hidden; }
+
 a:hover,
 a:focus {
   text-decoration: none; }
@@ -220,9 +223,6 @@ main.main {
   .contant_wrapper.container {
     width: 736px; }
 
-  .header_row__info .calendar .calendar__item input, .header_row__info .calendar .calendar__item input:focus {
-    width: 130px; }
-
   .event_row .event_row__col .event_row__item {
     width: 230px; }
 
@@ -234,6 +234,9 @@ main.main {
 @media (max-width: 767px) {
   .header_row__info {
     text-align: center; }
+
+  .contant_wrapper.container {
+    width: 100%; }
 
   .header_row__info .calendar {
     -webkit-justify-content: center;
