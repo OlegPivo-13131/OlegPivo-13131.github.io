@@ -277,6 +277,10 @@ main.main {
   .header_row__info .title h1 {
     display: block; }
 
+  .header_row__info .statistics .statistics__list .statistics__item {
+    display: block;
+    margin: 10px 0; }
+
   .header_row__info .calendar {
     -webkit-flex-direction: column;
     -moz-flex-direction: column;
